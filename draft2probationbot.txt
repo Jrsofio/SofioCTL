@@ -1,0 +1,74 @@
+Title: Draft of Youth Probation Guide
+Author: Jessica Sofio	
+Description:
+
+Q(N):Did you receive a "Notice to Appear in Court For a Violation of Probation?"
+A: Yes
+	Q(N.1): YOU HAVE THE RIGHT TO A LAWYER! 
+		 Do not miss your hearing! The Notice has a date for your “Detention Hearing”, if detention is requested. 
+	A:What happens if I miss my hearing?
+		Q(N.1.1): If you do not show up to court, you may be arrested. 
+		A:Tell me more.
+			Q(N.1.1.1): Coming soon.
+			
+		A: Okay, got it. Tell me more about the Detention Hearing.
+			Q(N.1.1.2): GOTO:DH
+	A:Click Here To Learn What to Expect at Your Detention Hearing.
+		Q(N.1.2):GOTO:DH
+A: No
+	Q(N.2):A notice may be on its way via mail.
+		 YOU MAY WANT TO CHECK IF THE COURT HAS YOUR CORRECT MAILING ADDRESS
+
+Q(DH):At the Detention Hearing, a probation officer tells the Judge why they believe you violated your probation. The probation officer may ask the Judge to order detention or “conditions of release”.
+
+A: Tell me more about "conditions of release."
+	Q(DH.1):Conditions of Release: Are the rules you must obey so you can stay in your community.
+	
+	A:Okay, got it. Tell me what happens Next.
+		Q(DH.1.1): GOTO:PC
+A:Tell me what happens next.
+	Q(DH.3): GOTO:PC
+
+Q(PC):At the Detention Hearing the Judge decides if there is “probable cause” that you violated probation. Probable cause means the Judge has enough reason to believe you violated your probation conditions. 
+
+A:What happens if the Judge determines there is probable cause?
+	Q(PC.1): GOTO:YESPC
+A:What happens if the Judge determines there is not probable cause?
+	Q(PC.2): GOTO:NOPC
+
+Q(YESPC):If the Judge decides there is probable cause that you violated your probation conditions, the Judge can 
+	1)hold you in detention with no bail until your final hearing. You could be there for up to 15 days. OR
+	2)Not order you to go to detention. You are responsible to follow the previous conditions or you may get new conditions of release.
+REMINDER: Make sure to meet with your lawyer about all your rights and options! If you do not know who your lawyer is, ask your probation officer. 
+A: Okay, got it. Please tell me about the Second Court Date: Probation Violation Hearing
+	Q(YESPC.1):GOTO:PVH	
+
+Q(NOPC): You don't go to detention and you show up at the next court date. The Judge could dismiss the violation(s).
+A: Okay, got it. Please tell me about the Second Court Date: Probation Violation Hearing
+	Q(NOPC.1):GOTO:PVH
+
+Q(PVH):The court will set a date for a 2nd hearing. The 2nd hearing is a “Probation Violation Hearing”. At this hearing, the Probation Department must prove “it is more likely than not” that you violated your probation. This is called “preponderance of the evidence.” 
+	 The Judge will either find that you did or you did not violate your probation.
+
+A: What happens if the Judge determines there was a violation of probation?
+	Q(PVH.1):GOTO:YESVP
+
+A: What happens if the Judge does not find a violation of probation?
+	Q(PVH.2):GOTO:NOVP
+
+Q(YESVP): If the Judge finds that you have violated your probation, 
+	The Judge may order you to continue your original conditions of probation.
+	The Judge may order you to be committed to the Department of Youth Services.
+	The Judge may change your probation by:
+	-Adding or taking away conditions
+	-Keeping you on probation longer
+	-Change the finding in your case to “adjudicated delinquent” or “guilty” if you are on a continued without a finding(CWOF)
+	OR Yor probation is over.
+
+
+
+Q(NOVP): IF the Judge decides that there has not been a probation violation, 
+	You will be continued on probation with the original probation
+	OR Your probation is over.
+
+	
