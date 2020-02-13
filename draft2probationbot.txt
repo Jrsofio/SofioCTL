@@ -1,6 +1,6 @@
-Title: Draft of Youth Probation Guide
-Author: Jessica Sofio	
-Description:
+Title: Massachusetts Trial Court Guide for Youth and Families to Violations of Probation
+	
+Description: This is an online, interactive version of the Guide for Youth and Families to Violations of Probation
 
 Q(N):Did you receive a "Notice to Appear in Court For a Violation of Probation?"
 A: Yes
